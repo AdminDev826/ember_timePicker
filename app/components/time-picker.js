@@ -9,7 +9,7 @@ export default Component.extend({
     actions: {
         setTimeValue(value){
             if(this.old_value != value){
-                this.sendAction('setTimeValue', value);
+                this.setTime(value);
                 this.old_value = value;
             }
         }

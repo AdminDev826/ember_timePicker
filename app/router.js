@@ -7,7 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('timePicker');
+  this.route('time-picker');
 });
 
 export default Router;
